@@ -47,7 +47,7 @@ export const ManagementLandingPage = ({ version, setBreadcrumbs }: ManagementLan
             <h1>
               <FormattedMessage
                 id="management.landing.header"
-                defaultMessage="Welcome to Stack Management {version}"
+                defaultMessage="Welcome to Stack Management"
                 values={{ version }}
               />
             </h1>
