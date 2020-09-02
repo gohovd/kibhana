@@ -134,12 +134,12 @@ export class Welcome extends React.Component<Props> {
           <header className="homWelcome__header">
             <div className="homWelcome__content eui-textCenter">
               <EuiSpacer size="xl" />
-              <span className="homWelcome__logo">
-                <EuiIcon type="logoElastic" size="xxl" />
+              <span className="">
+		<img src={require('./forge_logo.png')} width="150" style={{ paddingBottom: '30' + 'px' }} />
               </span>
               <EuiTitle size="l" className="homWelcome__title">
                 <h1>
-                  <FormattedMessage id="home.welcomeTitle" defaultMessage="Welcome to Elastic" />
+                  <FormattedMessage id="home.welcomeTitle" defaultMessage="Welcome to Honeywell Forge Analytics" />
                 </h1>
               </EuiTitle>
               <EuiSpacer size="m" />

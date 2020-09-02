@@ -335,7 +335,7 @@ class HeaderHelpMenuUI extends Component<Props, State> {
             <EuiFlexItem grow={false} className="chrHeaderHelpMenu__version">
               <FormattedMessage
                 id="core.ui.chrome.headerGlobalNav.helpMenuVersion"
-                defaultMessage="v {version}"
+                defaultMessage="v Potatoes"
                 values={{ version: kibanaVersion }}
               />
             </EuiFlexItem>

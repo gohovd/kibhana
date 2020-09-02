@@ -96,8 +96,8 @@ export class SpaceSelector extends Component<Props, State> {
         <EuiPageBody>
           <EuiPageHeader className="spcSpaceSelector__heading">
             <EuiSpacer size="xxl" />
-            <span className="spcSpaceSelector__logo">
-              <EuiIcon size="xxl" type={`logoElastic`} />
+            <span className="">
+		<img src={require('./forge_logo.png')} width="150" style={{ paddingBottom: '50' + 'px' }} />
             </span>
 
             <EuiTitle size="l">
